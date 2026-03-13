@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "multiloops-classification: classification of RNA multiloops"
+license: MIT
 version: 1.0.0
 date-released: "2026-03-13"
 repository-code: "https://github.com/tzok/multiloops-classification"
