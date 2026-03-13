@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "multiloops-classification: classification of RNA multiloops"
+version: 1.0.0
+date-released: "2026-03-13"
+repository-code: "https://github.com/tzok/multiloops-classification"
+authors:
+  - family-names: Mackowiak
+    given-names: Marta
+    orcid: "https://orcid.org/0009-0000-4777-2786"
+  - family-names: Zok
+    given-names: Tomasz
+    orcid: "https://orcid.org/0000-0003-4103-9238"
