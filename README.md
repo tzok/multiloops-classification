@@ -19,6 +19,7 @@ The study addresses both **3-way junctions** (families A, B, C, defined by which
 RNA multiloops are among the most structurally diverse and functionally significant motifs in RNA molecules. A multiloop is formed at the point where three or more double-stranded helical stems meet, connected by single-stranded loop segments. The way these helical arms arrange themselves in three-dimensional space -- particularly through coaxial stacking, where two helices align end-to-end to form a continuous stack -- defines the junction's structural family.
 
 For 3-way junctions, three families are recognized:
+
 - **Family A** -- coaxial stacking between helices H1 and H2
 - **Family B** -- coaxial stacking between helices H2 and H3
 - **Family C** -- coaxial stacking between helices H1 and H3
@@ -81,15 +82,15 @@ This novel approach derives features directly from the three-dimensional coordin
 
 Key dependencies include:
 
-| Package | Purpose |
-|---|---|
-| `pandas` | Data manipulation |
-| `scikit-learn` | Machine learning classifiers and evaluation |
-| `xgboost`, `lightgbm` | Gradient boosting classifiers |
-| `imbalanced-learn` | Oversampling for class imbalance |
-| `forgi` | RNA coarse-grained structure representation |
-| `biopython` | PDB file parsing |
-| `matplotlib`, `seaborn` | Visualization |
+| Package                 | Purpose                                     |
+| ----------------------- | ------------------------------------------- |
+| `pandas`                | Data manipulation                           |
+| `scikit-learn`          | Machine learning classifiers and evaluation |
+| `xgboost`, `lightgbm`   | Gradient boosting classifiers               |
+| `imbalanced-learn`      | Oversampling for class imbalance            |
+| `forgi`                 | RNA coarse-grained structure representation |
+| `biopython`             | PDB file parsing                            |
+| `matplotlib`, `seaborn` | Visualization                               |
 
 ## Installation
 
@@ -166,3 +167,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 - **Marta Mackowiak** ([ORCID: 0009-0000-4777-2786](https://orcid.org/0009-0000-4777-2786))
 - **Tomasz Zok** ([ORCID: 0000-0003-4103-9238](https://orcid.org/0000-0003-4103-9238))
+
+## Funding
+
+This work was supported by the National Science Centre, Poland (Narodowe Centrum Nauki) under grant No. 2023/51/D/ST6/01207, "Exploring Multiple Loop Motifs in RNA Structures".
